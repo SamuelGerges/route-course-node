@@ -1,0 +1,1 @@
+alert('Welcome to the Node.js Course! \n Samuel is the instructor. \n Enjoy your learning journey!');

@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 
 // Serve HTML form
 app.get('/add-user', (req, res) => {
-    const filePath = path.join(__dirname, 'form.html');
+    const filePath = path.join(path.resolve(), 'form.html');
     const html = fs.readFileSync(filePath, 'utf-8');
     res.send(html);
     res.end();

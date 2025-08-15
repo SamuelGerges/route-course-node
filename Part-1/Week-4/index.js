@@ -14,17 +14,12 @@
 // ES 6
 
 // import {x,y, sum} from './demo.js';
-
 // console.log(x,y,sum(x,y)); // This will log the values of x, y and their sum
-
 
 import express from 'express';
 import bootstrap from './bootstrap.js';
-
-
 // import { userRoutes } from './src/routes/user.js';
 // import { productRoutes } from './src/routes/product.js';
-
 
 const app = express();
 const port = 3000;
@@ -36,12 +31,9 @@ app.use(express.json());
 bootstrap(app);
 
 
-
-
 app.get('/', (req, res, next) => {
     console.log('Hello World');
 });
-
 
 app.listen(port, (error) => {
     if(error){

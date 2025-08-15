@@ -3,7 +3,7 @@
 // type : modules 
 
 // local module 
-// third party module
+// third party module  => npm i
 
 // built-in module
     // 1- module os'use strict';
